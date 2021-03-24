@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: #b3b3b3;
+}
+
+.bgblack{
+    background-color: #000;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.asize{
+    height: 140px;
+    
+}
+.imgsize{
+    width: 100%;
+    max-width: 131px;
+    height: 40px;
+} 
+/* .directioncl{
+    flex-direction: column;
+    display: flex;
+} */
+/* .section{
+    padding-top: 15px;
+    padding-bottom:15px;
+} */
