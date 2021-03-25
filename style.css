@@ -3,25 +3,56 @@
     padding: 0;
     box-sizing: border-box;  
 }
+main-body{
+    height: 100vh;
+    width:100%;
+    overflow:hidden;
+  
+    
+}
+
 .text-white{
     color: white;
 }
 .text-gray{
     color: #b3b3b3;
 }
-
+.bggray{
+    background-color: #272626;
+}
 .bgblack{
     background-color: #000;
 }
-.flex{
-    display: flex;
-    flex-direction: column;
-}
-.asize{
-    height: 140px;
+nav{
+    
+    height:300px;
+    position: fixed;
+    
+    
+   
     
 }
+.container-flex{
+    display: flex;
+}
+.imagine-sinister{
+    width:50px;
+    height:50px;
+
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+/* .asize{
+  height: 140px;
+    
+} */
 .imgsize{
+   
     width: 100%;
     max-width: 131px;
     height: 40px;
