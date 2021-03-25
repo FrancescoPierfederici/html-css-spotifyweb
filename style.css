@@ -24,6 +24,10 @@
    height: 25px;
    width: 40px;
 }
+.imgsizedownload{
+    height: 20px;
+    width:30px;
+}
 .verticalalign{
     vertical-align: middle;
     line-height:30px ;
@@ -75,10 +79,13 @@ main{
     margin-top: 10px;
 }
 .margint3{
-    margin-top: 70px;
+    margin-top: 280px;
 }
 .marginr{
     margin-right: 15px;
+}
+.marginr2{
+    margin-right: 30px;
 }
 .fixed{
     position: fixed;
@@ -90,8 +97,8 @@ main{
     display: flex;
 }
 .imagine-sinister{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
 
 }
 .flex-row{
@@ -114,6 +121,96 @@ main{
     list-style: none;
 }
 .overflow-scroll{
-    overflow: scroll;
+    overflow: auto;
+   
+   
     
+}
+.marginb{
+    margin-bottom: 40px;
+}
+.marginb2{
+    margin-bottom: 10px;
+}
+.imgsize3{
+    width:10px;
+    height:10px;
+}
+.h300{
+    height:230px;
+}
+.inlineblock{
+    display: inline-block;
+}
+.verticalalign2{
+    vertical-align: middle;
+    
+}
+.text-grayhr{
+    border: 1px solid #b3b3b3;
+}
+.bgcircle{
+    border-radius: 50%;
+    background-color:#b3b3b3 ;
+}
+.imgsize4{
+    width:30px;
+    height:30px;
+}
+.widthsinisterdiv{
+    width: 250px;
+    height: 80px;
+}
+.align-items{
+    align-items: center;
+}
+.justify-contentc{
+    justify-content: center;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.verticalalign3{
+    vertical-align: middle;
+    line-height: 50px;
+  
+}
+
+/* .text {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    align-self: center;
+} */
+.fontsize10{
+    font-size: 10px;
+}
+.fontsize9{
+    font-size: 9px;
+}
+.divwidth{
+    height: 40px;
+}
+.fontsize8{
+    font-size: 8px;
+}
+.bdhr{
+    border:2px solid white;
+    border-radius: 5px;
+    width:60px;
+}
+.bdhr2{
+    border:2px solid #b3b3b3;
+    border-radius: 5px;
+    width:300px;
+}
+.bdhr3{
+    border:2px solid white;
+    border-radius: 5px;
+    width:30px;
+}
+.bdhr4{
+    border:2px solid #b3b3b3;
+    border-radius: 5px;
+    width:50px;
 }
