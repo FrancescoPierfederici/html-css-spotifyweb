@@ -18,7 +18,7 @@
     color: #b3b3b3;
 }
 .bggray{
-    background-color: #272626;
+    background-color: #2e2c2c;
 }
 .bgblack{
     background-color: #000;
@@ -26,11 +26,14 @@
 nav{
     height:100px;
     width:100%;
+    
+   
+    
+}
+.fixed{
     position: fixed;
     bottom: 0;
     right: 0;
-   
-    
 }
 .container-flex{
     display: flex;
