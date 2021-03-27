@@ -11,22 +11,14 @@
   
     
 }
-.fontsize11{
-    font-size: 11px;
-}
-.fontsize13{
-    font-size:13px;
-}
-.fontsize15{
-    font-size: 15px;
-}
+
 .imgsize2{
    height: 25px;
    width: 40px;
 }
 .imgsizedownload{
-    height: 20px;
-    width:30px;
+    height: 40px;
+    width:40px;
 }
 .verticalalign{
     vertical-align: middle;
@@ -56,22 +48,32 @@
     background-color: #000;
 }
 nav{
-    height:80px;
+    height:150px;
     width:100%; 
 }
 main{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 150px);
 }
 .widthaside{
-    width:250px;
-   
-    
+    width:300px;
+    height: 100%;  
 }
+.white-hover:hover{
+    color: white;
+}
+.white-hover2:hover{
+    color: white;
+   border-bottom: 1px solid white;
+}
+
 .marginl{
     margin-left: 15px;
 }
 .marginl2{
     margin-left:25px;
+}
+.marginl5p{
+    margin-left: 5px;
 }
 .margint{
     margin-top: 15px;
@@ -82,12 +84,19 @@ main{
 .margint3{
     margin-top: 280px;
 }
+.margint5{
+    margin-top: 5px;
+}
 .marginr{
     margin-right: 15px;
 }
 .marginr2{
     margin-right: 30px;
 }
+.marginr3{
+    margin-right: 50px;
+}
+
 .fixed{
     position: fixed;
     bottom: 0;
@@ -98,8 +107,8 @@ main{
     display: flex;
 }
 .imagine-sinister{
-    width:40px;
-    height:40px;
+    width:60px;
+    height:60px;
 
 }
 .flex-row{
@@ -133,6 +142,9 @@ main{
 .marginb2{
     margin-bottom: 10px;
 }
+.marginb3{
+    margin-bottom: 20px;
+}
 .imgsize3{
     width:10px;
     height:10px;
@@ -159,8 +171,8 @@ main{
     height:30px;
 }
 .widthsinisterdiv{
-    width: 250px;
-    height: 80px;
+    width: 300px;
+    height: 100%;
 }
 .align-items{
     align-items: center;
@@ -190,38 +202,42 @@ main{
     font-size: 9px;
 }
 .divwidth{
-    height: 40px;
+    height: 75px;
 }
-.fontsize8{
-    font-size: 8px;
+.bghover:hover{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .bdhr{
-    border:2px solid white;
+    border:3px solid white;
     border-radius: 5px;
-    width:60px;
+    width:100px;
 }
 .bdhr2{
-    border:2px solid #b3b3b3;
+    border:3px solid #b3b3b3;
     border-radius: 5px;
-    width:300px;
+    width:500px;
 }
 .bdhr3{
-    border:2px solid white;
+    border:3px solid white;
     border-radius: 5px;
     width:30px;
 }
 .bdhr4{
-    border:2px solid #b3b3b3;
+    border:3px solid #b3b3b3;
     border-radius: 5px;
-    width:50px;
+    width:120px;
 }
 .topbar{
-    height: 80px;
+    padding-bottom:100px;
     background-color: rgb(10, 10, 15);
     top:0;
     right: 0;
     position: absolute;
-    width: calc(100% - 250px);
+    width: calc(100% - 300px);
 }
 .float-right{
     float:right;
@@ -233,21 +249,31 @@ main{
 }
 .buttonclass{
     background-color: transparent;
-    padding:8px;
-    border-radius: 15px;
+    padding:15px;
+    border-radius: 20px;
     border:1px solid white;
     text-decoration: none;
     vertical-align: middle;
-    line-height: 80px;
+    line-height: 100px;
+}
+.buttonclass:hover{
+    background-color: transparent;
+    padding:20px;
+    border-radius: 20px;
+    border:1px solid white;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 100px;
 }
 .herobg{
     height: 100%;
     background-color:rgb(36, 36, 51); 
-    width: calc(100% - 250px);
-    top:80px;
+    width: calc(100% - 300px);
+    top:100px;
     right: 0;
     position: absolute;
     overflow: scroll;
+    
 }
 .z-index0{
     z-index: 0;
@@ -272,30 +298,81 @@ main{
     max-width:1000px; 
     margin: auto;
 }
-
+.margint-1{
+    margin-top: -30px;
+}
 .box2{
-    width:180px;
-    height: 180px;
+    width:400px;
+    
     border-radius: 50%;
 }
 .downloadsize{
-    height:290px;
+    height: 70px;
+    bottom: 0px;
 }
-.margint4{
-    margin-top:240px;
-}
+
 .col{
     width: calc(100% / 6);
     
 }
 .box{
-    width:180px;
+    width:400px;
     
     
 }
-/* .flexwrap{
- flex-wrap: wrap;   
-} */
+.fontsize13{
+    font-size: 13px;
+}
+.fontsize20{
+    font-size: 24px;
+}
+.fontsize18{
+    font-size: 18px;
+}
+.fontsize8{
+    font-size: 8px;
+}
+.fontsize11{
+    font-size: 11px;
+}
+.fontsize13{
+    font-size:13px;
+}
+.fontsize15{
+    font-size: 15px;
+}
 .paddingbottomend{
     padding-bottom: 250px;
+}
+.h100{
+    height: calc(100% - 70px);
+    overflow: scroll;
+}
+
+.margint3{
+    margin-top: 80px;
+}
+.margint4{
+    margin-top: 50px;
+}
+
+.player:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+.relative{
+    position: relative;
+}
+.verticalalignj{
+    vertical-align: middle;
+    line-height:30px;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.flex-wrap{
+   flex-wrap: wrap;
 }
