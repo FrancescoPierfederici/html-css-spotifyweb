@@ -241,12 +241,13 @@ main{
     line-height: 80px;
 }
 .herobg{
-    height: calc(100% - 80px);
+    height: 100%;
     background-color:rgb(36, 36, 51); 
     width: calc(100% - 250px);
     top:80px;
     right: 0;
     position: absolute;
+    overflow: scroll;
 }
 .z-index0{
     z-index: 0;
@@ -271,11 +272,7 @@ main{
     max-width:1000px; 
     margin: auto;
 }
-.box{
-    width:180px;
-    height: 180px;
-  
-}
+
 .box2{
     width:180px;
     height: 180px;
@@ -286,4 +283,19 @@ main{
 }
 .margint4{
     margin-top:240px;
+}
+.col{
+    width: calc(100% / 6);
+    
+}
+.box{
+    width:180px;
+    
+    
+}
+/* .flexwrap{
+ flex-wrap: wrap;   
+} */
+.paddingbottomend{
+    padding-bottom: 250px;
 }
