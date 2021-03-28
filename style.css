@@ -177,6 +177,9 @@ main{
 .align-items{
     align-items: center;
 }
+.align-items-e{
+    align-items: flex-end;
+}
 .justify-contentc{
     justify-content: center;
 }
@@ -216,15 +219,29 @@ main{
     border-radius: 5px;
     width:100px;
 }
+.bdhr:hover{
+    border:3px solid rgb(189, 243, 42);
+    border-radius: 5px;
+    width:100px;
+    padding:2px;
+    background-color:  rgb(189, 243, 42);
+}
 .bdhr2{
     border:3px solid #b3b3b3;
     border-radius: 5px;
     width:500px;
 }
+.bdhr3:hover{
+    border:3px solid rgb(189, 243, 42);
+    border-radius: 5px;
+    width:40px;
+    background-color: rgb(189, 243, 42);
+    padding:2px;
+}
 .bdhr3{
     border:3px solid white;
     border-radius: 5px;
-    width:30px;
+    width:40px;
 }
 .bdhr4{
     border:3px solid #b3b3b3;
@@ -273,6 +290,7 @@ main{
     right: 0;
     position: absolute;
     overflow: scroll;
+   
     
 }
 .z-index0{
@@ -317,7 +335,7 @@ main{
 }
 .box{
     width:400px;
-    
+    height:400px
     
 }
 .fontsize13{
@@ -375,4 +393,69 @@ main{
 }
 .flex-wrap{
    flex-wrap: wrap;
+}
+
+  
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 90px);
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+  
+.relative:hover .overlay {
+    opacity: 1;
+}
+  
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+  }
+  
+.playu:hover {
+    color: #eee;
+  }
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 90px);
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.301);
+    border-radius: 50%;
+}
+.relative:hover .overlay2 {
+    opacity: 1;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 20px);
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.relative:hover .overlay3 {
+    opacity: 1;
 }
