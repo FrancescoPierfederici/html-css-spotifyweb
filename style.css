@@ -53,6 +53,9 @@ nav{
 }
 main{
     height: calc(100vh - 150px);
+    display: flex;
+    
+    
 }
 .widthaside{
     width:300px;
@@ -248,18 +251,19 @@ main{
     border-radius: 5px;
     width:120px;
 }
+.widthall{
+    /* width: calc(100% - 300px); */
+}
 .topbar{
-    padding-bottom:100px;
+    
     background-color: rgb(10, 10, 15);
-    top:0;
-    right: 0;
-    position: absolute;
     width: calc(100% - 300px);
+    
 }
 .float-right{
     float:right;
 }
-.clearfix{
+.clearfix::after{
     clear: both;
     content: "";
     display: table;
@@ -285,11 +289,9 @@ main{
 .herobg{
     height: 100%;
     background-color:rgb(36, 36, 51); 
+    /* width: calc(100% - 300px); */
     width: calc(100% - 300px);
-    top:100px;
-    right: 0;
-    position: absolute;
-    overflow: scroll;
+   overflow: auto;
    
     
 }
@@ -320,13 +322,12 @@ main{
     margin-top: -30px;
 }
 .box2{
-    width:400px;
+    width:100%;
     
     border-radius: 50%;
 }
 .downloadsize{
-    height: 70px;
-    bottom: 0px;
+  
 }
 
 .col{
@@ -334,8 +335,7 @@ main{
     
 }
 .box{
-    width:400px;
-    height:400px
+    width:100%;
     
 }
 .fontsize13{
@@ -371,7 +371,7 @@ main{
     margin-top: 80px;
 }
 .margint4{
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .player:hover{
