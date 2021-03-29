@@ -403,11 +403,11 @@ main{
     bottom: 0;
     left: 0;
     right: 0;
-    height: calc(100% - 90px);
+    height: calc(100% - 100px);
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.363);
 }
   
 .relative:hover .overlay {
@@ -434,11 +434,11 @@ main{
     bottom: 0;
     left: 0;
     right: 0;
-    height: calc(100% - 90px);
+    height: calc(100% - 70px);
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.363);
     border-radius: 50%;
 }
 .relative:hover .overlay2 {
@@ -450,12 +450,15 @@ main{
     bottom: 0;
     left: 0;
     right: 0;
-    height: calc(100% - 20px);
+    height: calc(100% - 30px);
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.363);
 }
 .relative:hover .overlay3 {
     opacity: 1;
+}
+.fontbig:hover{
+    font-size: 20px;
 }
