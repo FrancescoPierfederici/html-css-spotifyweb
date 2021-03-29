@@ -1,16 +1,208 @@
+
+
 @media screen and (max-width:767px){
-
+    .col{
+        width: calc(100% / 2 - 50px);
+    }
+    .mb{
+        margin-bottom: 10px;
+    }
+    .bdhr{
+        width: 50px;
+        border:2px solid white;
+        border-radius: 5px;
+        }
+        .bdhr2{
+        width: 100px;
+        border:2px solid gray;
+        border-radius: 5px;
+        }
+        .bdhr:hover{
+            border:2px solid rgb(189, 243, 42);
+            border-radius: 5px;
+            width:50px;
+            padding:2px;
+            background-color:  rgb(189, 243, 42);
+        }
+        .bdhr3:hover{
+            border:2px solid rgb(189, 243, 42);
+            border-radius: 5px;
+            width:30px;
+            background-color: rgb(189, 243, 42);
+            padding:2px;
+        }
+        .bdhr4{
+            border:2px solid gray;
+            border-radius: 5px;
+            width:60px;
+        }
+        .bdhr3{
+            border:2px solid white;
+            border-radius: 5px;
+            width:30px;
+        }
+        .fntsmall{
+            font-size: 11px;
+        }
+        .fontsize15{
+            font-size: 15px;
+        }
+        .fntsmall2{
+            font-size: 15px;
+        }
 }
 
 
 
-@media screen and (min-width:768) and (max-width:991px){
+@media screen and (min-width:768px) and (max-width:991px){
+    .col{
+        width: calc(100% / 2 - 30px);
+    }
+    .mb{
+        margin-bottom: 10px;
+    }
+    .bdhr{
+        width: 50px;
+        border:2px solid white;
+        border-radius: 5px;
+        }
+        .bdhr2{
+        width: 100px;
+        border:2px solid gray;
+        border-radius: 5px;
+        }
+        .bdhr:hover{
+            border:2px solid rgb(189, 243, 42);
+            border-radius: 5px;
+            width:50px;
+            padding:2px;
+            background-color:  rgb(189, 243, 42);
+        }
+        .bdhr3:hover{
+            border:2px solid rgb(189, 243, 42);
+            border-radius: 5px;
+            width:30px;
+            background-color: rgb(189, 243, 42);
+            padding:2px;
+        }
+        .bdhr4{
+            border:2px solid gray;
+            border-radius: 5px;
+            width:60px;
+        }
+        .bdhr3{
+            border:2px solid white;
+            border-radius: 5px;
+            width:30px;
+        }
+        .fntsmall{
+            font-size: 11px;
+        }
+        .fontsize15{
+            font-size: 15px;
+        }
+        .fntsmall2{
+            font-size: 15px;
+        }
+        
+        
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+   .col{
+       width: calc(100% / 4 - 20px );
+   }
+   .fontsize19{
+       font-size: 20px;
+   }
+   .mb{
+    margin-bottom: 10px;
+    }
+    .bdhr{
+    width: 50px;
+    border:2px solid white;
+    border-radius: 5px;
+    }
+    .bdhr2{
+    width: 150px;
+    border:2px solid white;
+    border-radius: 5px;
+    }
+    .bdhr:hover{
+        border:2px solid rgb(189, 243, 42);
+        border-radius: 5px;
+        width:100px;
+        padding:2px;
+        background-color:  rgb(189, 243, 42);
+    }
+    .bdhr3:hover{
+        border:2px solid rgb(189, 243, 42);
+        border-radius: 5px;
+        width:50px;
+        background-color: rgb(189, 243, 42);
+        padding:2px;
+    }
+    .bdhr4{
+        border:2px solid #b3b3b3;
+        border-radius: 5px;
+        width:120px;
+    }
+    .fntsmall{
+        font-size: 11px;
+    }
+    .fontsize15{
+        font-size: 15px;
+    }
+    .bdhr3{
+        border:2px solid white;
+        border-radius: 5px;
+        width:40px;
+    }
     
 }
 
-@media screen and (min-width:992) and (max-width:1199px){
-   
-}
-@media screen and (min-width:1200) {
+
+@media screen and (min-width:1200px){
+
+    .col{
+    width: calc(100% / 6 - 20px);
     
+    }
+    .bdhr{
+        border:3px solid white;
+        border-radius: 5px;
+        width:100px;
+    }
+    .bdhr:hover{
+        border:3px solid rgb(189, 243, 42);
+        border-radius: 5px;
+        width:100px;
+        padding:2px;
+        background-color:  rgb(189, 243, 42);
+    }
+    .bdhr2{
+        border:3px solid #b3b3b3;
+        border-radius: 5px;
+        width:500px;
+    }
+    .bdhr3:hover{
+        border:3px solid rgb(189, 243, 42);
+        border-radius: 5px;
+        width:40px;
+        background-color: rgb(189, 243, 42);
+        padding:2px;
+    }
+    .bdhr3{
+        border:3px solid white;
+        border-radius: 5px;
+        width:40px;
+    }
+    .bdhr4{
+        border:3px solid #b3b3b3;
+        border-radius: 5px;
+        width:120px;
+    }
+    .fontsize15{
+        font-size: 15px;
+    }
 }
