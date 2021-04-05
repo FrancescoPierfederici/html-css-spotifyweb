@@ -6,368 +6,290 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-spotifyweb</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="framework.css">
     <link rel="stylesheet" href="style.css">
-    
 </head>
 
 <body>
     <div class="mainbody">
-        <header class="fixed z-index1">
-            <nav class="container-flex bggray justify-content">
-                <section>
-                    <div class="widthsinisterdiv container-flex align-items ">
-                        <img class="imagine-sinister marginr marginl" src="img/sinister.jpeg" alt="sinister foto">
-                        <h4 class="text-white fontsize15 marginr ">Sinister <br> <span
-                                class="fontsize13 text-gray white-hover2">Brano
-                                Nome</span></h4>
-                        <i class="fa fa-heart-o fa-2x text-gray marginl2 fontsizebb  marginr white-hover" aria-hidden="true"></i>
-                        
-                        <i class="fa fa-file-o fa-2x text-gray fontsizebb  white-hover" aria-hidden="true"></i>
-
-
-                    </div>
-
-                </section>
-                <section>
-                    <div class="container-flex divwidth align-items text-white fntsmall justify-contentc">
-                        <i class="fa fa-exchange fa-2x marginr2" aria-hidden="true"></i>
-                        <i class="fa fa-step-backward  fa-2x marginr2" aria-hidden="true"></i>
-                        <div class="fontbig">
-                            <i class="fa fa-play-circle-o  fa-3x marginr2 " aria-hidden="true"></i>
-                        </div>
-                        <i class="fa fa-step-forward  fa-2x marginr2" aria-hidden="true"></i>
-                        <i class="fa fa-undo  fa-2x" aria-hidden="true"></i>
-
-                    </div>
-                    <div class="container-flex align-items  divwidth margint-1 ">
-                        <p class="text-white fontsize15 marginr">0:25</p>
-                        <hr class=" bdhr">
-                        <hr class=" bdhr2">
-                        <p class="text-white fontsize15 marginl">4:35</p>
-
-                    </div>
-                </section>
-                <section>
-                    <div class="widthsinisterdiv container-flex align-items justify-contentc">
-                        <i class="fa fa-list fntsmall2 text-white marginr white-hover " aria-hidden="true"></i>
-                        <i class="fa fa-desktop fntsmall2 text-white white-hover  marginr" aria-hidden="true"></i>
-                        <i class="fa fa-volume-up fntsmall2 white-hover text-white" aria-hidden="true"></i>
-                        <hr class=" bdhr3 marginl">
-                        <hr class=" bdhr4">
-                    </div>
-                </section>
-            </nav>
-        </header>
 
         <main>
-            <aside class="bgblack container-flex flex-column flex-grow  widthaside ">
-                <div class="marginl margint h.100">
-                    <img class="imgsize marginb3" src="img/logo.svg" alt="logo">
-
-                    <div class="margint fontsize15 container-flex flex-column flex-grow overflow-scroll">
-                        <ul>
-                            <li class="text-gray liststyle margint2">
-                                <img class="imgsize2 verticalalign" src="img/home.svg" alt="home icon">
-                                <a class="textdecorationnone vsnone text-white verticalalign " href="">Home</a>
-                            </li>
-
-
-                            <li class="text-gray liststyle margint2 white-hover ">
-                                <img class="imgsize2 verticalalign" src="img/search.svg" alt="home icon">
-                                <a class="textdecorationnone vsnone verticalalign " href="">Cerca</a>
-
-                            </li>
-
-                            <li class="text-gray liststyle margint2 marginb white-hover">
-                                <img class="imgsize2 verticalalign" src="img/libreria.svg" alt="home icon">
-                                <a class="textdecorationnone vsnone verticalalign " href="">La tua libreria</a>
-                            </li>
-
-                        </ul>
-                        <h3 class="text-white fontsize20 marginl vsnone"> <strong>PLAYLIST</strong> </h3>
-                        <div class="margin container-flex flex-column flex-grow vsnone">
-                            <ul class="overflow-auto">
-                                <li class="text-gray liststyle white-hover marginl margint">
-                                    <i class="fa fa-plus-square fa-3x  verticalalign3 inlineblock"></i>
-                                    <span class="textdecorationnone inlineblock verticalalign3 fontsize20  ">
-                                        <strong>Crea
-                                            Playlist</strong> </span>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl " href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
-                                <li class="text-gray liststyle margint white-hover">
-
-                                    <a class="textdecorationnone  verticalalign marginl" href="#">Nome Playlist</a>
-                                </li>
+            <aside>
+                <ul>
+                    <li><a href="#">
+                            <img class="hidden img-size2" src="img/logo-small.svg" alt="">
+                            <img class="img-size vsnone" src="img/logo.svg" alt="logo">
+                        </a></li>
+                    <li><a class="val white-hover " href="#"><img class="img-size2 val " src="img/home.svg" alt="home foto">
+                           <a class="vsnone"href=""> Home</a></a>
+                    </li>
+                    <li><a class="val white-hover  " href="#"><img class="img-size2 val" src="img/search.svg"
+                                alt="search svg"><a class="vsnone" href=""> Cerca</a></a>
+                    </li>
+                    <li><a class="val white-hover  " href="#"><img class="img-size2 val" src="img/libreria.svg" alt="libreria svg"><a class="vsnone" href="">La
+                            tua
+                            libreria</a> </a> </li>
+                </ul>
 
 
+                <ul class="overflow-auto flex-grow vsnone">
+                    <li><a href="">
+                            <h4 class="text-white">PLAYLIST</h4>
+                        </a></li>
+                    <li><a class="white-hover val2" href=""><i class="fa fa-plus-square fa-2x val2 pdright"
+                                aria-hidden="true"></i>Crea
+                            Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
+                    <li><a class="white-hover" href="">Nome Playlist</a></li>
 
-                            </ul>
+                </ul>
+                <li><a class="val3 white-hover" href="#"><img class="img-size3 val3" src="img/download.svg" alt="home foto"><a class="vsnone" href="">  Installa
+                        App</a>
+                      </a></li>
+                <hr class="hr vsnone ">
+                <li><a class="val4 text-white fontsizebig" href="#"><img class="img-size3 val4 bg-greybd"
+                            src="img/profile.svg" alt="home foto"><a class="vsnone margin-left" href="">John Doe</a>  </a></li>
 
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="downloadsize margint4 marginl2 marginb container-flex flex-column ">
-                    <ul>
-                        <li><a href="">
-                                <img class="imgsizedownload inlineblock verticalalign2 marginr  " src="img/download.svg"
-                                    alt="download foto">
-                                <p class="text-gray vsnone fontsize15 inlineblock white-hover">Installa app</p>
-                            </a></li>
-
-                        <hr class="text-grayhr marginr margint marginb2">
-                        <li><a href="">
-                                <img class="imgsize4 inlineblock  bgcircle verticalalignj marginl5p marginr "
-                                    src="img/profile.svg" alt="">
-                                <h3 class="text-white vsnone inlineblock verticalalignj  ">John Doe</h3>
-                            </a></li>
-                    </ul>
-                </div>
 
 
 
             </aside>
-            <div class="overflow-scroll ">
-                <section class="topbar clearfix">
+
+            <section class="top-bar">
+                <div class=" clearfix">
                     <div class="float-right">
-                        <a class="text-white buttonclass fontsize15 marginr" href="#">EFFETTUA L'UPGRADE </a>
+                        <a class="padding-hover fntsize12" href="#">EFFETTUA L'UPGRADE</a>
                     </div>
-                </section>
-
-
-
-                <div class="herobg  z-index0 ">
-                    <section>
-                        <ul class="textaligncenter width1 text-gray  fontsize15 fontsize19 margint">
-                            <li class="inlineblock marginr"><a class=" textdecorationnone2 white-hover"
-                                    href="#"><strong>IN
-                                        EVIDENZA</strong> </a> </li>
-                            <li class="inlineblock marginr"><a class="textdecorationnone white-hover"
-                                    href="#"><strong>PODCAST</strong>
-                                </a></li>
-                            <li class="inlineblock  mb marginr"><a class="textdecorationnone white-hover "
-                                    href="#"><strong>CLASSIFICHE</strong> </a></li>
-                            <li class="inlineblock marginr"><a class="textdecorationnone white-hover"
-                                    href="#"><strong>GENERI E
-                                        MOOD</strong> </a></li>
-                            <li class="inlineblock marginr"><a class="textdecorationnone white-hover"
-                                    href="#"><strong>NUOVE
-                                        USCITE</strong> </a></li>
-                            <li class="inlineblock"><a class="textdecorationnone white-hover"
-                                    href="#"><strong>SCOPRI</strong> </a>
-                            </li>
-
-                        </ul>
-
-                    </section>
-                    <section class="marginl fontsize20">
-                        <h1 class="text-white marginb "><strong>Recently played</strong> </h1>
-                    </section>
-                    <section class="container-flex flex-wrap">
-                        <div class="  col marginr marginl relative ">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box " src="img/metal_lifting.jpg" alt="metal foto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Heavy Metal</strong> </h4>
-                                <p class="text-gray margint">Subtitle</p>
-
-                            </div>
-
-                        </div>
-                        <div class=" mb col marginr relative">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box " src="img/stranger.jpeg" alt="stranger things foto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Stranger Things, Vol. 1 (a
-                                        netflix
-                                        Original Series Soundtrack)</strong> </h4>
-                                <p class="text-gray margint ">Kyle Dixon & Michael Stein</p>
-
-                            </div>
-
-                        </div>
-                        <div class="  col marginr  relative">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/aquietplace.jpeg" alt="quiet place foto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>A quiet place</strong> </h4>
-                                <p class="text-gray margint mb">Subtitle</p>
-
-                            </div>
-                        </div>
-                        <div class=" col marginr relative">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/split.jpeg" alt="split foto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Split</strong> </h4>
-                                <p class="text-gray margint mb">Subtitle</p>
-
-                            </div>
-                        </div>
-                        <div class="  col marginr relative">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/cure.jpeg" alt="cure foto">
-
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>A cure for wellness</strong> </h4>
-                                <p class="text-gray margint">Subtitle</p>
-
-                            </div>
-
-                        </div>
-                        <div class=" col marginr relative">
-                            <div>
-                                <div class="overlay">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/sinister.jpeg" alt="cure foto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Sinister</strong> </h4>
-                                <p class="text-gray margint">Subtitle</p>
-
-                            </div>
-
-                        </div>
-                    </section>
-
-                    <section class="marginl  fontsize20 margint3 ">
-                        <h1 class="text-white marginb2"><strong>Creato per John Doe</strong> </h1>
-                        <p class="text-gray marginb2">Più ascolti, più accurati saranno i suggerimenti.</p>
-                    </section>
-                    </section>
-                    <section class=" marginl container-flex margint4">
-                        <div class="marginr relative col">
-                            <div>
-                                <div class="overlay3">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/radar.jpeg" alt="radar foto">
-                            </div>
-                            <div class="margint">
-                                <h4 class="text-white textaligncenter "> <strong>Release Radar</strong> </h4>
-
-                            </div>
-                        </div>
-
-
-
-
-                        <div class="  col marginr marginl relative">
-                            <div>
-                                <div class="overlay3">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box" src="img/mixdaily.jpeg" alt="daily foto">
-                            </div>
-                            <div>
-                                <h4 class="text-white textaligncenter margint"> <strong>Daily Mix 1</strong> </h4>
-
-                            </div>
-                        </div>
-                    </section>
-                    <section class="fontsize20 margint3 ">
-                        <h1 class="text-white marginb2 marginl"><strong>Artisti più popolari</strong> </h1>
-                        <p class="text-gray marginb2 marginl">Più ascolti, più accurati saranno i suggerimenti.</p>
-                    </section>
-                    <section class="marginl container-flex paddingbottomend marginl margint4">
-                        <div class="marginr relative col">
-                            <div>
-                                <div class="overlay2">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o   playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box2" src="img/youg.jpeg" alt="yougfoto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Lana Del Rey</strong> </h4>
-                                <p class="text-gray margint">Subtitle</p>
-
-                            </div>
-                        </div>
-                        <div class="marginr relative col">
-                            <div>
-                                <div class="overlay2">
-                                    <a href="#" class="icon">
-                                        <i class="fa fa-play-circle-o  playu"></i>
-                                    </a>
-                                </div>
-                                <img class="box2" src="img/einaudi.jpeg" alt="einaudifoto">
-                            </div>
-                            <div class="textaligncenter">
-                                <h4 class="text-white  margint"> <strong>Einaudi</strong> </h4>
-                                <p class="text-gray margint">Subtitle</p>
-
-                            </div>
-                        </div>
-                    </section>
                 </div>
-            </div>
+
+            </section>
+
+            <section class="herobg overflow-auto">
+                <ul class="top-bar2 container-flex fntsize12">
+                    <li><a class="white-hover" href="">IN EVIDENZA</a>
+                        <br>
+                        <hr class="hrgreen">
+                    </li>
+                    <li><a class="white-hover" href="">PODCAST</a></li>
+                    <li><a class="white-hover" href="">CLASSIFICHE</a></li>
+                    <li><a class="white-hover" href="">GENERI E MOOD</a></li>
+                    <li><a class="white-hover" href="">NUOVE USCITE</a></li>
+                    <li><a class="white-hover" href="">SCOPRI</a></li>
+                </ul>
+                <div class="title">
+                    <h1 class="text-white">Recently played</h1>
+                </div>
+                <div class="container-flex">
+                    <div class="col ">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/metal_lifting.jpg" alt="metal foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Heavy Metal </h4>
+                            <p class="text-gray">Subtitle</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/stranger.jpeg" alt="stranger foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack) </h4>
+                            <p class="text-gray">Kyle Dixon & Micheal Stein</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/aquietplace.jpeg" alt="quiet foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">A quiet place </h4>
+                            <p class="text-gray">Subtitle</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/split.jpeg" alt="metal foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Split </h4>
+                            <p class="text-gray">Subtitle</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/cure.jpeg" alt="cure foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">A cure for wellness </h4>
+                            <p class="text-gray">Subtitle</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/sinister.jpeg" alt="sinister foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Sinister </h4>
+                            <p class="text-gray">Subtitle</p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="title">
+                    <h1 class="text-white">Creato per John Doe</h1>
+                    <p class="text-gray">Più ascolti, più accurati saranno i suggerimenti</p>
+                </div>
+                <div class="container-flex">
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/radar.jpeg" alt="sinister foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Release radar</h4>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box" src="img/mixdaily.jpeg" alt="sinister foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Daily Mix 1 </h4>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="title">
+                    <h1 class="text-white">Artisti più popolari</h1>
+                    <p class="text-gray">Più ascolti, più accurati saranno i suggerimenti</p>
+                </div>
+                <div class="container-flex">
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay2">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box2" src="img/youg.jpeg" alt="sinister foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Lana Del Rey</h4>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="relative">
+                            <div class="overlay2">
+                                <a class="icon" href=""><i class="fa fa-play-circle-o  playu" aria-hidden="true">
+                                    </i></a>
+                            </div>
+                            <img class="box2" src="img/einaudi.jpeg" alt="sinister foto">
+                        </div>
+                        <div class="textalign">
+                            <h4 class="text-white">Einaudi</h4>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
         </main>
+
+        <header>
+            <nav>
+                <div class="val6">
+                    <a href=""><img class="img-size2 inblock" src="img/sinister.jpeg" alt="foto sinister"></a>
+                    <div class="inblock"><a href="">Sinister</a> <br> <a class="text-gray fsmall white-hover2" href="">Brano Nome</a></div>
+
+                    <a class="inblock dispblock" href=""><i class="fa fa-heart-o text-gray white-hover" aria-hidden="true"></i></a>
+                    
+                    <a class="inblock dispblock"href=""><i class="fa fa-file-o text-gray white-hover" aria-hidden="true"></i></a>
+                </div>
+
+                <div>
+                    <div class="textalign mrg">
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+
+                        <a href=""><i class="fa fa-step-backward" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-play-circle-o fa-2x fnt-hover" aria-hidden="true"></i></a>
+
+                        <a href=""><i class="fa fa-step-forward" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-repeat" aria-hidden="true"></i></a>
+                    </div>
+                    <br>
+                    <div class="textalign">
+                        <span class="fsmall inblock">0,25</span>
+                        <hr class="inblock hr3 green-hover">
+                        <hr class="inblock hr4">
+                        <span class="fsmall inblock">4.25</span>
+                    </div>
+                </div>
+
+
+
+
+                <ul>
+                    <li><a class="padd-" href="#"><i class="fa fa-list  " aria-hidden="true"></i></a></li>
+                    <li><a class="padd-" href="#"><i class="fa fa-television " aria-hidden="true"></i></a></li>
+                    <li><a class="padd-" href="#"><i class="fa fa-volume-up val5" aria-hidden="true"></i></a></li>
+                    <li>
+                        <hr class="inblock hr1 val5 green-hover">
+                        <hr class="hr2 inblock val5">
+                    </li>
+                </ul>
+
+
+
+            </nav>
+
+        </header>
+
+
+
 
     </div>
 </body>
